@@ -366,8 +366,8 @@ body {
 }
 /* <-----------------Customers------------> */
 .page-customers-container {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customers-list {
@@ -490,7 +490,7 @@ body {
   padding-left: 16px;
 
   color: var(--white);
-  background-color: transparent;
+  background-color: rgba(33, 150, 243, 0);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -622,6 +622,7 @@ body {
   padding-left: 38px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  background-color: #fcfcfc;
 
   transition: border-color var(--transition);
 }
@@ -672,6 +673,7 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  background-color: #fcfcfc;
   transition: border-color var(--transition);
 }
 
@@ -699,6 +701,10 @@ body {
   line-height: 1.33px;
   letter-spacing: 0.04em;
   color: #757575;
+}
+
+.privacy-policy-color {
+  color: var(--primary-brand);
 }
 
 .policy-label::before {
